@@ -499,7 +499,7 @@ a {
 
 .icons {
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
   gap: 10px;
 }
 
@@ -508,7 +508,7 @@ a {
   height: 39px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   font-size: 25px;
   background: #85929e;
   border-radius: 50%;
