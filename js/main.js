@@ -28,13 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
       // Toggle the visibility of the collapsible content
       if (collapsibleContent.style.maxHeight) {
         collapsibleContent.style.maxHeight = null;
-        container.style.gap = null; 
         collapseBtn.classList.remove("up"); 
         collapseBtn.classList.add("down");
       } else {
         // Set max-height to the scrollHeight to reveal the content
         collapsibleContent.style.maxHeight = collapsibleContent.scrollHeight + "px";
-        container.style.gap = `25px`;
         collapseBtn.classList.remove("down");
         collapseBtn.classList.add("up");
       }

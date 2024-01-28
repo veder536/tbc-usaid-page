@@ -391,6 +391,7 @@ a {
   width: 100%;
   cursor: pointer;
   transition: all 0.5s;
+  gap: 25px;
 }
 
 .toggle-collapse-container {
@@ -433,6 +434,7 @@ a {
   overflow: hidden;
   max-height: 0;
   color: white;
+
 }
 
 .textContent {
